@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean:dist && SET NODE_ENV=development npm run build:webpack",
     "start": "node index.php"
-  },
+  }, 
   "author": "Tim",
   "license": "ISC",
   "dependencies": {
