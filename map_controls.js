@@ -44,5 +44,10 @@ window.webchatMethods = {
       message
     }) 
     return messages;     
+  },
+  getMemory: (conversationId) => {
+    alert("getMemory func called");
+    const memory = { userName: "Tim" }
+    return { memory, merge: true }
   }
 }
